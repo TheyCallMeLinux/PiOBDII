@@ -1,0 +1,73 @@
+P0030 HO2S Heater Control Circuit (Bank 1 Sensor 1)
+P0031 HO2S Heater Control Circuit Low (Bank 1 Sensor 1)
+P0032 HO2S Heater Control Circuit High (Bank 1 Sensor 1)
+P0033 HO2S Heater Control Circuit (Bank 2 Sensor 1)
+P0034 HO2S Heater Control Circuit Low (Bank 2 Sensor 1)
+P0035 HO2S Heater Control Circuit High (Bank 2 Sensor 1)
+P0100 Mass or Volume Air Flow Circuit Malfunction
+P0101 Mass or Volume Air Flow Circuit Range/Performance Problem
+P0102 Mass or Volume Air Flow Circuit Low Input
+P0103 Mass or Volume Air Flow Circuit High Input
+P0104 Mass or Volume Air Flow Circuit Intermittent
+P0107 Manifold Absolute Pressure/Barometric Pressure Circuit Low Input
+P0108 Manifold Absolute Pressure/Barometric Pressure Circuit High Input
+P0112 Intake Air Temperature Sensor 1 Circuit Low
+P0113 Intake Air Temperature Sensor 1 Circuit High
+P0114 Intake Air Temperature Sensor 1 Circuit Intermittent
+P0116 Engine Coolant Temperature Circuit Range/Performance
+P0117 Engine Coolant Temperature Circuit Low
+P0118 Engine Coolant Temperature Circuit High
+P0119 Engine Coolant Temperature Circuit Intermittent
+P0122 Throttle/Pedal Position Sensor/Switch 'A' Circuit Low
+P0123 Throttle/Pedal Position Sensor/Switch 'A' Circuit High
+P0125 Insufficient Coolant Temperature for Closed Loop Fuel Control
+P0128 Coolant Thermostat (Coolant Temperature Below Regulating Temperature)
+P0130 O2 Sensor Circuit Malfunction (Bank 1 Sensor 1)
+P0131 O2 Sensor Circuit Low Voltage (Bank 1 Sensor 1)
+P0132 O2 Sensor Circuit High Voltage (Bank 1 Sensor 1)
+P0133 O2 Sensor Circuit Slow Response (Bank 1 Sensor 1)
+P0135 O2 Sensor Heater Circuit Malfunction (Bank 1 Sensor 1)
+P0136 O2 Sensor Circuit Malfunction (Bank 2 Sensor 1)
+P0137 O2 Sensor Circuit Low Voltage (Bank 2 Sensor 1)
+P0138 O2 Sensor Circuit High Voltage (Bank 2 Sensor 1)
+P0141 O2 Sensor Heater Circuit Malfunction (Bank 2 Sensor 1)
+P0171 System Too Lean (Bank 1)
+P0172 System Too Rich (Bank 1)
+P0201 Injector Circuit/Open - Cylinder 1
+P0202 Injector Circuit/Open - Cylinder 2
+P0203 Injector Circuit/Open - Cylinder 3
+P0204 Injector Circuit/Open - Cylinder 4
+P0205 Injector Circuit/Open - Cylinder 5
+P0206 Injector Circuit/Open - Cylinder 6
+P0207 Injector Circuit/Open - Cylinder 7
+P0208 Injector Circuit/Open - Cylinder 8
+P0300 Random/Multiple Cylinder Misfire Detected
+P0301 Cylinder 1 Misfire Detected
+P0302 Cylinder 2 Misfire Detected
+P0303 Cylinder 3 Misfire Detected
+P0304 Cylinder 4 Misfire Detected
+P0305 Cylinder 5 Misfire Detected
+P0306 Cylinder 6 Misfire Detected
+P0307 Cylinder 7 Misfire Detected
+P0308 Cylinder 8 Misfire Detected
+P0324 Knock Control System Error
+P0335 Crankshaft Position Sensor 'A' Circuit
+P0336 Crankshaft Position Sensor 'A' Circuit Range/Performance
+P0340 Camshaft Position Sensor 'A' Circuit
+P0341 Camshaft Position Sensor 'A' Circuit Range/Performance
+P0351 Ignition Coil 'A' Primary/Secondary Circuit
+P0352 Ignition Coil 'B' Primary/Secondary Circuit
+P0353 Ignition Coil 'C' Primary/Secondary Circuit
+P0354 Ignition Coil 'D' Primary/Secondary Circuit
+P0420 Catalyst System Efficiency Below Threshold (Bank 1)
+P0430 Catalyst System Efficiency Below Threshold (Bank 2)
+P0440 Evaporative Emission Control System Malfunction
+P0441 Evaporative Emission Control System Incorrect Purge Flow
+P0442 Evaporative Emission System Leak Detected (Small Leak)
+P0446 Evaporative Emission Control System Vent Control Circuit Malfunction
+P0455 Evaporative Emission System Leak Detected (Large Leak)
+P0500 Vehicle Speed Sensor 'A'
+P0507 Idle Air Control System RPM Higher Than Expected
+P0601 Internal Control Module Memory Checksum Error
+P0700 Transmission Control System Malfunction
+P0705 Transmission Range Sensor 'A' Circuit Malfunction (PRNDL Input)
