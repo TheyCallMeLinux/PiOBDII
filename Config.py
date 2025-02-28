@@ -34,7 +34,7 @@ import Button
 ConfigValues = {
 	"FontName" : "freemono",
 	"SerialPort" : "/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A800eaG9-if00-port0",
-	"Vehicle" : "DATA/TroubleCodes-R53_Cooper_S.txt",
+	"Vehicle" : "DATA/TroubleCodes-2007_DodgeNitro_V6_SLT.txt",
 	"Debug": "OFF",
 }
 
