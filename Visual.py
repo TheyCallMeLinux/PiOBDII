@@ -110,16 +110,28 @@ class Visual:
 			(self.DownImageXLen, self.DownImageYLen) = pygame.Surface.get_size(self.DownImage)
 
 		# Default colours to use on the visual object.
-		self.ColourBlack = pygame.Color(0x00, 0x00, 0x00)
-		self.ColourGrey = pygame.Color(0x5F, 0x5F, 0x5F)
-		self.ColourText = pygame.Color(0x00, 0x00, 0x00)
-		self.ColourValueText = pygame.Color(0xAF, 0xAF, 0x00)
-		self.ColourBorder = pygame.Color(0x7F, 0x7F, 0x7F)
-		self.ColourFillDown = pygame.Color(0x7F, 0xFF, 0xFF)
-		self.ColourFillUp = pygame.Color(0x7F, 0x7F, 0xFF)
-		self.ColourFill = self.ColourFillUp
-		self.ColourDialog = pygame.Color(0x3F, 0xFF, 0x3F)
-		self.ColourConfigDialog = pygame.Color(0x3F, 0x3F, 0xFF)
+		#self.ColourBlack = pygame.Color(0x00, 0x00, 0x00)
+		#self.ColourGrey = pygame.Color(0x5F, 0x5F, 0x5F)
+		#self.ColourText = pygame.Color(0x00, 0x00, 0x00)
+		#self.ColourValueText = pygame.Color(0xAF, 0xAF, 0x00)
+		#self.ColourBorder = pygame.Color(0x7F, 0x7F, 0x7F)
+		#self.ColourFillDown = pygame.Color(0x7F, 0xFF, 0xFF)
+		#self.ColourFillUp = pygame.Color(0x7F, 0x7F, 0xFF)
+		#self.ColourFill = self.ColourFillUp
+		#self.ColourDialog = pygame.Color(0x3F, 0xFF, 0x3F)
+		#self.ColourConfigDialog = pygame.Color(0x3F, 0x3F, 0xFF)
+
+		# Dark Mode Theme with Adjusted Config Dialog Color
+		self.ColourBlack = pygame.Color(0x21, 0x21, 0x21)  # Dark Charcoal
+		self.ColourGrey = pygame.Color(0x9E, 0x9E, 0x9E)  # Medium Grey
+		self.ColourText = pygame.Color(0xFA, 0xFA, 0xFA)  # Almost White for contrast
+		self.ColourValueText = pygame.Color(0xFF, 0xC1, 0x07)  # Amber for emphasis
+		self.ColourBorder = pygame.Color(0x42, 0x42, 0x42)  # Darker Grey for subtle borders
+		self.ColourFillDown = pygame.Color(0xE5, 0x6A, 0x6A)  # Soft Red for down states
+		self.ColourFillUp = pygame.Color(0x4F, 0x4F, 0x4F)  # Dark Gray for up states
+		self.ColourFill = self.ColourFillUp  # Default fill color for dark mode
+		self.ColourDialog = pygame.Color(0x29, 0x80, 0xB9)  # Calming Blue for dialogs
+		self.ColourConfigDialog = pygame.Color(0x1F, 0x66, 0x94)  # Dark Blue for config dialogs
 
 		# Get the dimensions of the surface to draw the visual object onto.
 		(self.DisplayXLen, self.DisplayYLen) = pygame.Surface.get_size(self.ThisSurface)
